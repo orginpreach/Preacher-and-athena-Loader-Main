@@ -69,10 +69,10 @@ Instance.new("UICorner", AladiaBtn).CornerRadius = UDim.new(0, 8)
 
 SaberBtn.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/orginpreach/Preacher-and-athena-SS-/refs/heads/main/Love%20each%20other%20so%20much%20like%20so%20much"))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/orginpreach/Saber-Showdown/refs/heads/main/LOAD"))()
+    end)
 
 AladiaBtn.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/orginpreach/Preacher-and-Athena-Aladia-/refs/heads/main/Love%20each%20other%20so%20much%20like%20so%20much"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/orginpreach/Aladia-PvP/refs/heads/main/LOAD"))()
 end)
